@@ -6,7 +6,7 @@ import main
 class TestAufgabe1(unittest.TestCase):
 
     def test_population(self):
-        result1 = (60,5,3)
+        result1 = (60, 5, 3)
         step1 = main.compute_r2d2_population(1)
         self.assertEqual(step1, result1)
 
